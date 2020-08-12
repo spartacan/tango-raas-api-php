@@ -1,14 +1,14 @@
 {
-    "name": "integrateideas/tango-raas-api-php",
+    "name": "spartacan/tango-raas-api-php",
     "description": "TangoCard RAAS PHP SDK",
     "keywords": ["tangocard", "sdk"],
     "type": "library",
-    "homepage": "https://github.com/integrateideas/tango-raas-api-php",
+    "homepage": "https://github.com/spartacan/tango-raas-api-php",
     "license": "MIT",
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/integrateideas/tango-raas-api-php"
+            "url": "https://github.com/spartacan/tango-raas-api-php"
         } 
     ],
     "authors": [
