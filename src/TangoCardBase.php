@@ -154,7 +154,7 @@ protected function _validateResourceAndSubResource($httpMethod,$resource,$subRes
         if ($isPost) {
             curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($params));
         }
-        curl_setopt($ch, CURLOPT_CAINFO, dirname(__FILE__) . DIRECTORY_SEPARATOR . 'tangocard_digicert_chain.pem');
+        curl_setopt($ch, CURLOPT_CAINFO, dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'resources' . DIRECTORY_SEPARATOR .'tangocard_digicert_chain.pem');
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'Content-Type: application/json',
             'Authorization:Basic ' . base64_encode($this->platformName . ':' . $this->platformKey)
